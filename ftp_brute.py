@@ -56,7 +56,7 @@ def main():
         print('[!] Trying keys:')
         for word in words.readlines():
 
-            print('[-] ' + word)
+            print('[-] ' + word, end='')
 
             brute(host, user, word.strip())
 
